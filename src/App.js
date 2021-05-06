@@ -74,7 +74,7 @@ class App extends React.Component {
     return (
       <div className="App">
         <div className="header">
-          <h2>TODO List: MVP</h2>
+          <h2>TODO LIST:</h2>
         </div>
         <TodoList
           todo={this.state.todo}
