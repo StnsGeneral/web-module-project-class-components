@@ -1,0 +1,60 @@
+.completed {
+  text-decoration: line-through;
+  color: tomato;
+}
+
+.App {
+  background-color: cadetblue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  height: 100vh;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  color: rgb(81, 0, 128);
+  font-size: 34px;
+  position: relative;
+  width: 100%;
+  letter-spacing: 3px;
+}
+
+button {
+  display: flex;
+  flex-direction: row;
+  border-radius: 5px;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  text-align: center;
+  margin: 4px 0;
+  height: 30px;
+  font-size: 18px;
+  color: forestgreen;
+  cursor: pointer;
+  transform: translateX(4px);
+}
+
+button:hover {
+  background-color: dodgerblue;
+  color: #f9f9f9;
+}
+
+p {
+  font-size: 20px;
+  color: ghostwhite;
+}
+
+p:hover {
+  color: fuchsia;
+  cursor: pointer;
+}
+
+input {
+  width: 100%;
+}
